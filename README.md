@@ -201,31 +201,7 @@ Lightweight 2-layer MLPs predict neuron activations:
 - Hidden: Compressed representation
 - Output: Activation scores `[ffn_dim]`
 
-## 🤝 Contributing
 
-Contributions welcome! Areas for improvement:
-
-1. **More Models**: Extend beyond OPT (BERT, GPT-2, LLaMA)
-2. **Attention Sparsity**: Add head-level pruning for attention layers
-3. **Custom Kernels**: Optimize non-contiguous indexing with CUDA
-4. **Adaptive Ratios**: Per-layer cache size based on sparsity profiles
-5. **Evaluation Suite**: Comprehensive accuracy benchmarks
-
-## 📚 References
-
-This work builds on research in sparse neural networks and efficient inference:
-
-- [Deja Vu: Contextual Sparsity for Efficient LLMs](https://proceedings.mlr.press/v202/liu23am/liu23am.pdf)
-- [LLM in a Flash: Efficient Large Language Model Inference](https://arxiv.org/abs/2312.11514)
-- Activation sparsity in ReLU networks
-
-## 📄 License
-
-MIT License - see LICENSE file for details
-
-## 🙏 Acknowledgments
-
-Built with PyTorch and HuggingFace Transformers.
 
 ---
 
